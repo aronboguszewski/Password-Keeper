@@ -18,8 +18,10 @@ public class Main extends Application {
 
 
         Parent root = FXMLLoader.load(getClass().getResource("PasswordKeeperGUI.fxml"));
+
         primaryStage.setTitle("Password Keeper");
         primaryStage.setScene(new Scene(root));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
